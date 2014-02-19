@@ -25,59 +25,74 @@ While correctness and performance are the most important parts of this problem, 
 A few examples are below.
 
 Input:
+```
            3
            1 5 2
            2 4 7
            3 6 9
-
+```
     Output:
+    ```
                 7 2
-
+```
      The basins, labeled with A’s and B’s, are:
+     ```
            A A B
            A A B
            A A A
-
+```
 Input:
+```
            1
            10
+           ```
   Output:
+  ```
            1
-
+```
  There is only one basin in this case.
 
 Input:
+```
            5
            1 0 2 5 8
            2 3 4 7 9
            3 5 7 8 9
            1 2 5 4 3
            3 3 5 2 1
+           ```
 Output:
+```
            11 7 7
-
+```
 The basins, labeled with A’s, B’s, and C’s, are:
+           ```
            A A A A A
            A A A A A
            B B A C C
            B B B C C
            B B C C C
-
+```
 Input:
+```
            4
            0 2 1 3
            2 1 0 4
            3 3 3 3
            5 5 2 1
+           ```
 Output:
+```
            7 5 4
-
+```
 The basins, labeled with A’s, B’s, and C’s, are:
+```
            A A B B
            A B B B
            A B B C
            A C C C 
-           
+```
+
 # Try 2 Problem: 
 
 Given a list of points "x y", print "YES" if there exists a line containing 4 of the points, otherwise print "NO".
